@@ -1,0 +1,172 @@
+.authen-form,
+.authen-form_register,
+.authen-form_login {
+    width: 450px;
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.authen-form span i.icon-close {
+    float: right;
+    color: #c0c0c0;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+}
+
+.authen-form_title {
+    padding: 10px 35px;
+    color: #383937D9;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.authen-form_title h2 {
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+
+.authen-form__container {
+    padding: 15px 35px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+button[type="submit"],
+button[type="button"] {
+    width: 100%;
+    margin: 15px 0;
+    font-size: 1.6rem;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    box-shadow: 0 6px 10px 0 rgba(51, 51, 51, 0.2), 0 0 5px 0 rgba(51, 51, 51, 0.19);
+}
+
+.button-bgr#login-user {
+    font-size: 1.8rem;
+    margin-top: 7px;
+    background-color: #00ce80;
+}
+
+
+input[type="submit"],
+button[type="submit"],
+button[type="button"] {
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background-color: #39a837;
+}
+
+.form-group-1 {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    margin: 8px 0;
+    padding-right: 0 ;
+    align-items: center;
+}
+
+input.form-input {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    position: relative;
+    border-radius: 5px;
+    padding: 15px 0 15px 38px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.form-group-icon {
+    left: 48px;
+    z-index: 1;
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+.authen-form_click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #383937D9;
+    border-top-left-radius: 10px;
+    background-color: #ecf0f1;
+    border-top-right-radius: 10px;
+}
+
+.authen-form_click a {
+    font-size: 1.6rem;
+    color: #b1b6c0;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+.authen-form_click button {
+    font-size: 1.6rem;
+    color: #155FEE;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.modal-dialog {
+    width: 550px;
+    max-width: 550px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-content .modal-header {
+    padding:  25px  35px;
+    background-color: #d9d9d9;
+}
+
+.modal-content  .modal-header h2 {
+    color: #383937D9;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.modal-body {
+    padding: 35px 35px 0;
+}
+
+.modal-footer {
+    padding: 0 35px 35px ;
+}
+
+.modal-footer  a {
+    font-size: 1.6rem;
+    color: #155FEE;
+    text-decoration: none;
+}
+
+.error-message {
+    color: #E41919C2;
+    font-size: 1.6rem;
+    padding: 5px 0;
+}
+
+#error-login.error-message {
+    font-size: 1.7rem;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+input.error--border.form-input {
+    border: 1px solid red;
+}

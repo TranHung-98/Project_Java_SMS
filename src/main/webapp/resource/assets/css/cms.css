@@ -1,0 +1,278 @@
+html {
+  font-family: 'Heebo', sans-serif;
+}
+
+
+.position-relative {
+  z-index: auto;
+  position: relative;
+}
+
+.signal {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #155FEE;
+  padding: 5px 20px;
+  transform-origin:left;
+  transition: transform 2s ease-in-out;
+}
+
+header {
+  padding: 20px;
+  font-size: 1.6rem;
+  background-color: var(--bgr-public);
+}
+
+.nav-title--login {
+  cursor: pointer;
+}
+
+i.fa-solid.fa-users.icon-header {
+  padding: 0 10px 0 0;
+}
+
+p.font-size {
+  padding-right: 15px;
+}
+
+
+.login_user {
+  position: absolute;
+  top:54px;
+  right: 0;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0 0 5px #ffffff;
+  display: none;
+}
+
+.nav-title_login-user {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  color: var(--text-color) !important;
+  background-color: transparent !important;
+  align-items: center;
+}
+
+.nav-title_login-user:hover {
+  color: var(--text-table) !important;
+}
+
+.padding_left {
+  padding-left: 12px;
+}
+
+.logout span,
+.icon-logout,
+.font-size{
+  font-size: 2rem;
+  color: #155FEE;
+}
+
+
+.nav-title_login-log_out {
+  width: 100%;
+  display: flex;
+  color: var(--text-color) !important;
+  background-color: transparent !important;
+  align-items: center;
+}
+
+.nav-title_login-log_out:hover {
+  color: var(--text-table) !important;
+}
+
+.nav-title_text {
+  color:#757575;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_navbar_table {
+  width: 17.6%;
+  height: 135vh;
+  font-size: 1.6rem ;
+  border-right: 1px solid #D9D9D9;
+  background-color: var(--bgr-public);
+}
+
+.main_navbar_table_search {
+  padding: 0 15px;
+}
+
+button.rounded-0.bg-transparent.w-100{
+  text-align: left;
+  padding: 17px 0 !important;
+  padding-left: 9px !important;
+}
+
+.fa-chevron-down,
+.fa-chevron-up {
+  margin-left: auto;
+}
+
+.fa-solid.fa-chevron-down {
+  display: none;
+}
+
+i.fa-solid.fa-gauge.font-size.pe-4,
+i.fa-solid.fa-chart-column{
+  font-size: 2.5rem;
+}
+
+.form_input-search {
+  display: flex;
+  height: 45px;
+  align-items: center;
+}
+
+.form_input-search-icon {
+  font-size: 1.8rem;
+  width: 45px;
+  height: 100%;
+  cursor: pointer;
+  padding: 9px;
+  border: 1px solid #D9D9D9;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.button--fix {
+  width: 45px !important ;
+  height: 45px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none !important;
+  border: 1px solid #D9D9D9 !important;
+  background-color: #f0f0f0 !important;
+}
+
+button.fix-btn.shadow-none {
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-table) !important;
+  background-color: transparent !important;
+}
+
+
+input[type="search"]{
+  width: 229px;
+  height: 100%;
+  border: 1px solid #D9D9D9;
+  padding: 10px 20px;
+  border-top-left-radius:5px ;
+  border-bottom-left-radius:5px ;
+}
+
+.main_navbar_table_table {
+  color: var(--text-table);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.main_navbar_table_table.fix-height {
+  height: 83vh;
+}
+
+.bgr-dark {
+  background-color: #bfbfbf;
+}
+
+h1.fs-1 {
+  font-size: 4rem !important;
+}
+
+.main_navbar_table_table-item{
+  display: flex;
+  color: var(--text-table);
+  align-items: center;
+}
+
+.pd-xl {
+  padding: 17px 25px !important;
+  padding-right: 10px !important;
+}
+
+.p-lg-xl {
+  padding: 10px 35px;
+}
+
+.main_table_content {
+  width: 100%;
+  padding: 70px 40px 0;
+}
+
+ul#drop-menu {
+  display: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.width-size {
+  top: 10%;
+  left: 38%;
+  width: 550px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 6px 10px 0 rgba(51, 51, 51, 0.2), 0 0 5px 0 rgba(51, 51, 51, 0.19);
+}
+
+.max-height {
+  overflow: auto;
+  max-height: 550px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer{
+  padding: 15px 25px;
+}
+
+.modal-header {
+  padding: 10px 25px;
+}
+
+h5.modal-title {
+  font-size: 2.6rem;
+}
+
+#close.close,
+.close#click-close {
+  cursor: pointer;
+  color: #333;
+  font-size: 2.6rem;
+  background-color: transparent;
+}
+
+#show-delete {
+  top: 5%;
+}
+
+button#btn-update.btn.btn-lg,
+button#btn-delete.btn.btn-lg{
+  width: 100%;
+  padding: 15px;
+  font-size: 1.6rem;
+  line-height: 100%;
+  background-color: #0d6efd;
+}
+
+
+.number-page {
+  height: 100%;
+  width: 100%;
+}
